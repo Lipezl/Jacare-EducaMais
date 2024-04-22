@@ -1,0 +1,60 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: grey;
+    border-radius: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    color: red;
+}
+
+p {
+    text-align: justify;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+figure {
+    float: left;
+    margin-left: 0px;
+    background-color: rgba(126, 184, 236, 0.598);
+    border-radius: 16px;
+    text-align: center;
+}
+
+figure img {
+    padding: 10px;
+}
+
+iframe {
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.esquerda {
+    float: left;
+    margin-left: 0px;
+    margin-right: 15%;
+}
+
+.direita {
+    margin-right: 0px;
+}
+
+li p{
+    color: rgba(52, 156, 247, 0.598);
+}
+
+li a figure:hover {
+    transform: scale(1.2); /* Aumenta em 20% */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
