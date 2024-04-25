@@ -2,19 +2,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    background-color: grey;
-    border-radius: 16px;
-    text-align: center;
-    padding: 10px;
+body {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
-h3 {
-    color: red;
+h1 {
+    background-color: rgb(188, 160, 252);
+    text-align: center;
+    padding: 40px;
 }
 
 p {
     text-align: justify;
+    font-size: 18px;
 }
 
 li {
@@ -39,23 +39,120 @@ iframe {
     text-align: justify;
 }
 
-.esquerda {
-    float: left;
-    margin-left: 0px;
-    margin-right: 15%;
+#Educamais {
+    background-color: rgb(188, 160, 252);
+    padding: 40px;
+    text-align: center;
 }
 
-.direita {
-    margin-right: 0px;
-    padding-left: 20px;
+.sumario {
+    text-align: center;
+    background-color: rgb(188, 160, 252);
+    margin: 0 auto; /* Centraliza horizontalmente */
+    width: 40%; /* Define a largura do sumário */
+    padding: 20px;
+    border-radius: 16px;
 }
 
-li p{
-    color: rgba(52, 156, 247, 0.598);
+.lista li {
+    margin-top: 5%;
+    align-items: center;
+}
+
+.lista li p{
+    color: rgba(11, 22, 122, 0.598);
+    font-weight: bolder;
+}
+
+.lista li h3 {
+    color: red;
+    font-size: 150%;
 }
 
 li a figure:hover {
-    transform: scale(1.2); /* Aumenta em 20% */
-    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
 }
 
+
+.localidades {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.localidades h2 {
+    background-color: rgb(188, 160, 252);
+    padding: 40px;
+}
+
+.lista {
+    background: rgb(238,174,231);
+    background: radial-gradient(circle, rgba(238,174,231,1) 9%, rgba(148,187,233,1) 100%);
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.direita, .esquerda {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 15px;
+}
+
+
+.contatos {
+    background: rgb(238,174,231);
+    background: radial-gradient(circle, rgba(238,174,231,1) 9%, rgba(148,187,233,1) 100%);
+    margin-top: 300px;
+    clear: both;
+}
+
+.contatos a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: rgb(200, 205, 214);
+    color: black; 
+    text-decoration: none;
+}
+
+.contatos a:hover{
+    background-color: rgb(90, 110, 117);
+    transform: scale(110%)
+}
+
+.contatos h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.feito {
+    margin-top: 7%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    position: relative;
+    border-radius: 18px;
+}
+
+.feito h3{
+    color: white;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
