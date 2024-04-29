@@ -27,42 +27,40 @@
     }
 }
 
-/* Estilos para telas exatamente 1024px de largura (somente para notebooks) */
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
     body {
-        padding: 30px; /* Ajustar o espaço interno */
+        padding: 30px;
     }
 
     h1 {
-        padding: 40px; /* Ajustar o padding do título */
-        font-size: 32px; /* Reduzir o tamanho do título */
+        padding: 40px;
+        font-size: 32px;
     }
 
     p {
-        font-size: 16px; /* Reduzir o tamanho do texto */
+        font-size: 16px;
     }
 
     .sumario {
-        width: 70%; /* Reduzir um pouco a largura do sumário */
+        width: 70%;
     }
 
-    /* Estilos para as colunas */
     .direita, .esquerda {
-        width: 50%; /* Largura igual para as colunas */
-        box-sizing: border-box; /* Incluir padding e borda na largura */
-        float: left; /* Alinhar as colunas lado a lado */
-        padding: 0 15px; /* Adicionar espaço interno nas colunas */
+        width: 50%;
+        box-sizing: border-box;
+        float: left;
+        padding: 0 15px;
     }
 
     figure {
-        width: 50%; /* Ocupar toda a largura da coluna */
-        margin: 0 0 20px 0; /* Adicionar margem inferior */
+        width: 50%;
+        margin: 0 0 20px 0;
     }
 
     iframe {
         height: 80%;
         width: 50%;
-        margin: 0 0 20px 0; /* Adicionar margem inferior */
+        margin: 0 0 20px 0;
     }
 
     figure img {
