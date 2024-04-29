@@ -48,8 +48,8 @@ iframe {
 .sumario {
     text-align: center;
     background-color: rgb(188, 160, 252);
-    margin: 0 auto; /* Centraliza horizontalmente */
-    width: 40%; /* Define a largura do sumário */
+    margin: 0 auto;
+    width: 40%;
     padding: 20px;
     border-radius: 16px;
 }
